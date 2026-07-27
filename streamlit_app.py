@@ -473,7 +473,7 @@ with tab_projects:
     st.download_button(
         "Download filtered projects",
         data=csv_data,
-        file_name="jay_project_portfolio_filtered.csv",
+        file_name="project_portfolio_filtered.csv",
         mime="text/csv",
     )
 
